@@ -9,6 +9,17 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+
+h1 {
+font-size: 2.em;
+margin-bottom: 20px;
+}
+
+@media (max-width: 550px) {
+  section {
+    width: 60%;
+  }
+}
 `
 
 export const Content = styled.div`
